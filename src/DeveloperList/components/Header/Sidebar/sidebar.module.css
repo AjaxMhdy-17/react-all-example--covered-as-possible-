@@ -1,0 +1,17 @@
+
+
+.sidebar__main{
+    background-color: #6F2232 ;
+    position: fixed;
+    top : 0 ;
+    left : 0 ;
+    bottom : 0 ;
+    right : 40% ;
+    z-index: 777;
+    transition: all 0.3s linear ;
+}
+
+.sidebar__logo{
+    width : 60px ;
+    padding : 20px 0px 0px 20px ;
+}

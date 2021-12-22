@@ -1,0 +1,41 @@
+.live__main {
+  width: 100%;
+  display: grid;
+  /* grid-gap: 12px; */
+  grid-template-columns: 1fr ;
+  margin-bottom: 30px;
+}
+
+.live__form h1 {
+  font-size: 31px;
+}
+.select__box {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.select__box option {
+  background-color: brown;
+  color: #fff;
+}
+/* 
+.select__box option:hover,
+.select__box option:focus,
+.select__box option:active,
+.select__box option:checked ,
+.select__box option:selected {
+    background-color: cornflowerblue;
+    color : orange
+}
+
+option:selected{
+    background-color: darkgreen;
+    color : purple
+}
+
+
+.select__box option:active{
+    background-color: cornflowerblue;
+} */
+

@@ -1,0 +1,19 @@
+
+
+.base_button{
+    border-style: none;
+    background-color: #14A76C;
+    color: #FFE;
+    padding: 5px 30px;
+    margin: 10px 0;
+    cursor: pointer ;
+}
+.base_button:active , 
+.base_button.active{
+    background-color: darkblue;
+    color: #fff ;
+}
+.orange{
+    background-color: orange;
+    color : #222 ;
+}

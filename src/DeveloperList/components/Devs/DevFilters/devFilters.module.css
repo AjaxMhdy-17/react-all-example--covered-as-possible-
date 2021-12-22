@@ -1,0 +1,65 @@
+.dev_filters_main {
+  width: 100%;
+  box-sizing: border-box;
+  /* border : 1px solid red ; */
+  padding : 20px 0 ;
+}
+
+.dev_filters_main h4{
+  padding : 0 20px ;
+  color : #f10a67 ;
+  text-transform: uppercase ;
+}
+
+.select_category{
+  width : 100% ;
+  padding : 5px ;
+  margin : 10px 0 ;
+  color: #333 ;
+}
+
+/* .select_category .select_option{
+  background-color: #ccc ;
+} */
+
+select option {
+  background-color: #ccc ;
+}
+
+.select_category option{
+  background-color: rebeccapurple;
+  color : #ccc  ;
+}
+
+
+.radio__submit{
+  padding : 20px  ;
+}
+
+.radio_div{
+  margin : 10px 0px ;
+}
+
+.radio_div label {
+  margin-left: 5px ;
+}
+
+.sorting_buttons{
+  padding : 20px  ;
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media screen and (max-width : 550px){
+  .radio__submit{
+    padding : 0 0 0 5px ;
+  }
+  .sorting_buttons{
+    padding : 0 0 0 5px ;
+  }
+}
+
+
+
+

@@ -1,0 +1,59 @@
+
+
+.header__main{
+    background-color: #272727;
+    height : 90px ;
+    width : 100% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box ;
+    padding  : 0 20px ;
+    border-radius: 5px 5px 2px 2px ;
+    /* margin : 0 auto 10px ; */
+    /*position: fixed;
+    top : 0 ;
+    left : 5% ;
+    right : 5% ; */
+    /* position: sticky; */
+}
+
+.logo_div{
+    width : 80px ;
+}
+
+
+.hamburger_icon_div {
+    color : #FFE400 ;
+    font-size: 32px ;
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger_icon_div:hover{
+    color : 
+}
+
+
+@media screen and (max-width : 500px){
+    .main__layout{
+        background-color: blue;
+        width : 95% ;
+    }
+    .hamburger_icon_div{
+        display: block;
+    }
+}
+
+@media (min-width : 501px) and (max-width : 767px){
+    .main__layout{
+        /* background-color: red; */
+        width : 95% ;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 991px){
+    .main__layout{
+        /* background-color:gold; */
+    }
+}

@@ -1,0 +1,39 @@
+.team__main {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  border: 1px solid dodgerblue;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.team__1,
+.team__2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  margin: 5px 0;
+  background-color: #ccc;
+  color: #333;
+  padding: 10px 0;
+}
+
+.team__2 {
+}
+
+.team__main .space {
+  display: flex;
+  justify-content: space-around;
+}
+
+.team__main .space button{
+    font-size: 18px ;
+    padding: 2px ;
+}
+
+@media screen and (max-width: 550px) {
+  .team__1,
+  .team__2 {
+      grid-template-columns: 1fr 1fr ;
+  }
+}

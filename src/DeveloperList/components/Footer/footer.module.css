@@ -1,0 +1,11 @@
+
+
+.footer__main{
+    width : 100% ;
+    text-align: center;
+    color : #f10a67 ;
+    padding : 20px ;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    background-color: #ccc  ;
+}

@@ -1,0 +1,45 @@
+.banner__main {
+  margin-top: 40px ;
+  
+}
+
+.slide__images {
+  height: 400px;
+  position: relative;
+  border-radius: 0px 0px 5px 5px ;
+}
+.slide__images:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #22222275;
+  border-radius: 0px 0px 8px 8px ;
+}
+.banner__main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px 0px 8px 8px ;
+}
+
+.slide_icons {
+  color: #950740;
+  font-size: 35px;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.right_icon {
+  top: 50%;
+  position: absolute;
+  right: 2%;
+}
+
+.left_icon {
+  top: 50%;
+  position: absolute;
+  left: 2%;
+}

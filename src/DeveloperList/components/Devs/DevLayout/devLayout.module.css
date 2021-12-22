@@ -1,0 +1,25 @@
+
+
+.main_dev_layout{
+    box-sizing: border-box;
+    width: 100% ;
+    display: grid;
+    padding : 30px 0 ;
+    grid-template-columns: 30% 1fr ;
+}
+
+.filter__section{
+    width: 100% ;
+    box-sizing: border-box;
+}
+
+.dev_list_section{
+    width: 100% ;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width : 500px){
+    .main_dev_layout{
+        grid-template-columns: 40% 1fr ;
+    }   
+}

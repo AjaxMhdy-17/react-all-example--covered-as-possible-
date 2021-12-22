@@ -1,0 +1,17 @@
+
+.single_menu_item{
+    margin : 0px 10px ;
+}
+
+.single_menu_item a{
+    text-decoration: none ;
+} 
+
+.red{
+    /* color : #FF652F ; */
+    color : #f10a67 
+}
+
+.green{
+    color : #14A76C ;
+}

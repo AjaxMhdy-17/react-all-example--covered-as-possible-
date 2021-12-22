@@ -1,0 +1,22 @@
+
+.form__main{
+    width : 60% ;
+    margin : 20px auto ;
+    text-align: center;
+}
+
+.input__field{
+    margin : 10px ;
+}
+
+@media screen and (max-width : 500px){
+    .form__main{
+        width : 90% ;
+    }   
+}
+
+@media (min-width : 500px) and (max-width : 767px){
+    .form__main{
+        width: 80% ;
+    }
+}

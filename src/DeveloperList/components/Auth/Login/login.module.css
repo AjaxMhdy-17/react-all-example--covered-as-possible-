@@ -1,0 +1,40 @@
+
+.form__main{
+    width : 60% ;
+    margin : 20px auto ;
+    text-align: center;
+}
+.form__main h2{
+    color: orangered;
+    text-transform: uppercase;
+    margin : 40px 0px 10px 0px;
+}   
+.input_field{
+    width : 100% ;
+    box-sizing: border-box;
+    background-color: #EEE2DC ;
+    /* border-color : #123C69   ; */
+    border : none;
+    border : 1px solid #123C69 ;
+    padding : 7px 15px ;
+    border-radius: 3px ;
+    outline : 0 ;
+    margin : 5px 0 ;
+}
+
+.input_field:focus{
+    border-color: #AC3B61;
+}
+
+
+@media screen and (max-width : 500px){
+    .form__main{
+        width : 90% ;
+    }   
+}
+
+@media (min-width : 500px) and (max-width : 767px){
+    .form__main{
+        width: 80% ;
+    }
+}
