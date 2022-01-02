@@ -5,6 +5,7 @@ const HookForms = () => {
   const {
     register,
     handleSubmit,
+    reset, 
     formState: { errors },
   } = useForm();
 
@@ -12,6 +13,7 @@ const HookForms = () => {
 
     ///getting all submited data from here 
     console.log(data);
+    reset() 
   }
 
   console.log(errors);
